@@ -1,0 +1,1 @@
+# <>Oracle DBA Queries - Oracle Database 23ai
