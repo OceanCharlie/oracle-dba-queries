@@ -3,10 +3,10 @@
 Dokumen ini memandu Anda dalam proses instalasi Oracle VM VirtualBox versi **7.2.0**. VirtualBox dibutuhkan sebagai lingkungan virtualisasi untuk menjalankan database Oracle.
 
 ## Daftar Isi
-- [Prasyarat Sistem](#-prasyarat-sistem)
-- [Download Installer](#-1-download-installer)
-- [Panduan Instalasi](#-2-panduan-instalasi)
-- [Troubleshooting](#-3-troubleshooting)
+- [Prasyarat Sistem](#prasyarat-sistem)
+- [Download Installer](#1-download-installer)
+- [Panduan Instalasi](#2-panduan-instalasi)
+- [Troubleshooting](#3-troubleshooting)
 
 
 ## Prasyarat Sistem
