@@ -1,59 +1,59 @@
-# TM01 - Instalasi Oracle VirtualBox
+# TM01 - Oracle VirtualBox Installation
 
-Dokumen ini memandu Anda dalam proses instalasi Oracle VM VirtualBox versi **7.2.0**. VirtualBox dibutuhkan sebagai lingkungan virtualisasi untuk menjalankan database Oracle.
+This document guides you through the installation process of Oracle VM VirtualBox version **7.2.0.** VirtualBox is required as the virtualization environment to run the Oracle database.
 
-## Daftar Isi
-- [Prasyarat Sistem](#prasyarat-sistem)
+## Table of Contents
+- [System Prerequisites](#system-prerequisites)
 - [Download Installer](#1-download-installer)
-- [Panduan Instalasi](#2-panduan-instalasi)
+- [Instalation Guide](#2-instalation-guide)
 - [Troubleshooting](#3-troubleshooting)
 
 
-## Prasyarat Sistem
-Sebelum memulai, pastikan laptop Anda memenuhi kriteria berikut untuk menghindari kegagalan instalasi:
+## System Prerequisites
+Before starting, ensure your laptop meets the following criteria to avoid installation failure:
 
-1.  **Microsoft Visual C++ Redistributable (Wajib untuk Windows):**
-    * Oracle VirtualBox membutuhkan *Microsoft Visual C++ 2019* ke atas.
-    * Jika belum terinstall, unduh versi **x64** (untuk laptop 64-bit umum) di: [Microsoft Learn - Latest Supported VC Redist](https://learn.microsoft.com/id-id/cpp/windows/latest-supported-vc-redist?view=msvc-170).
-    * **Penting:** Lakukan **Restart Laptop** setelah menginstal Visual C++ sebelum lanjut menginstal VirtualBox.
-2.  **Ruang Penyimpanan:**
-    * Dibutuhkan minimal **230MB** ruang kosong di hard drive untuk base aplikasi.
+1.  **Microsoft Visual C++ Redistributable (Mandatory for Windows):**
+    * Oracle VirtualBox requires *Microsoft Visual C++ 2019* or higher.
+    * If not installed, download the **x64** version (for standard 64-bit laptops) at: [Microsoft Learn - Latest Supported VC Redist](https://learn.microsoft.com/id-id/cpp/windows/latest-supported-vc-redist?view=msvc-170).
+    * **Important:** Perform a **Laptop Restart** after installing Visual C++ before proceeding to install VirtualBox.
+2.  **Storage Space:**
+    * A minimum **230MB** of free hard drive space is required for the base application.
 
 ## 1. Download Installer
-Unduh installer resmi sesuai sistem operasi Anda:
+Download the official installer according to your operating system:
 
-* **Website Resmi:** [https://www.virtualbox.org/wiki/Downloads](https://www.virtualbox.org/wiki/Downloads) 
-* **Pilihan Platform:**
-    * `Windows hosts`: Untuk pengguna Windows.
-    * `macOS / Intel hosts`: Untuk MacBook dengan prosesor Intel.
-    * `macOS / Apple Silicon hosts`: Untuk MacBook dengan chip M1/M2/M3.
+* **Official Website:** [https://www.virtualbox.org/wiki/Downloads](https://www.virtualbox.org/wiki/Downloads) 
+* **Platform Options:**
+    * `Windows hosts`: For Windows users.
+    * `macOS / Intel hosts`: For MacBook with Intel processors.
+    * `macOS / Apple Silicon hosts`: For MacBook with M1/M2/M3 chips.
 
 
-## 2. Panduan Instalasi
-Ikuti langkah-langkah berikut setelah file installer berhasil diunduh:
+## 2. Installation Guide
+Follow these steps after the installer file has been successfully downloaded:
 
-1.  **Jalankan Installer:** Buka file `Oracle VirtualBox 7.2.0 Installer`.
-2.  **Setup Wizard:** Pada layar *Welcome*, klik **Next**.
+1.  **Run Installer:** Open the `Oracle VirtualBox 7.2.0 Installer`.
+2.  **Setup Wizard:** On the Welcome screen, click **Next**.
 3.  **License Agreement:**
-    * Pilih opsi **"I accept the terms of the license agreement"**.
-    * Klik **Next**.
+    * Select the option **"I accept the terms of the license agreement"**.
+    * Click **Next**.
 4.  **Custom Setup:**
-    * Biarkan fitur terpilih secara *default* (termasuk USB Support & Networking).
-    * Klik **Next** (kecuali Anda ingin mengubah lokasi instalasi via tombol *Change*).
-5.  **Konfirmasi Peringatan Network:** (Jika muncul peringatan *Network Interfaces*, klik **Yes** untuk melanjutkan).
-6.  **Ready to Install:** Klik tombol **Install**.
-7.  **Proses:** Tunggu hingga status bar penuh dan muncul pesan "Oracle VirtualBox 7.2.0 has been installed".
-8.  **Selesai:** Centang "Start Oracle VirtualBox" lalu klik **Finish**.
+    * Leave the features selected by *default* (including USB Support & Networking).
+    * Click **Next** (unless you wish to change the installation location via the *Change* button).
+5.  **Network Warning Confirmation:** (If a *Network Interfaces* warning appears, click **Yes** to proceed).
+6.  **Ready to Install:** Click the **Install** button.
+7.  **Process:** Wait until the status bar is full and the message "Oracle VirtualBox 7.2.0 has been installed" appears.
+8.  **Finish:** Check "Start Oracle VirtualBox" then click **Finish**.
 
 ## 3. Troubleshooting
-Jika Anda mengalami kendala saat instalasi:
+If you encounter issues during installation:
 
-| Masalah | Solusi |
+| Issue | Solution |
 | :--- | :--- |
-| **Error: Visual C++ Missing** | Muncul pesan *"Needs Microsoft Visual C++ 2019..."*.<br> **Solusi:** Lihat bagian [Prasyarat Sistem](#-prasyarat-sistem) di atas. Unduh Visual C++, install, lalu **wajib Restart laptop**. |
-| **Instalasi Gagal / Rollback** | Cek koneksi internet saat mengunduh atau pastikan antivirus tidak memblokir installer. |
+| **Error: Visual C++ Missing** | The message *"Needs Microsoft Visual C++ 2019..."* appears.<br> **Solution:** See the [System Prerequisites](#system-prerequisites) section above. Download Visual C++, install, then **you must Restart the laptop**. |
+| **Installation Failed / Rollback** | Check your internet connection during the download or ensure your antivirus is not blocking the installer. |
 
 ---
 <br>
 
-*Dibuat untuk keperluan Praktikum Mata Kuliah **Oracle Database Administrator** di Fakultas Teknologi Informasi Universitas Tarumanagara.*
+*Created for the **Oracle Database Administrator** Course Lab Session at the Faculty of Information Technology, Tarumanagara University.*
