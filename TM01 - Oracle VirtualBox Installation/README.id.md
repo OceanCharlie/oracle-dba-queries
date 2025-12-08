@@ -56,4 +56,4 @@ Jika Anda mengalami kendala saat instalasi:
 ---
 <br>
 
-*Dibuat untuk keperluan Praktikum Mata Kuliah **Oracle Database Administrator** di Fakultas Teknologi Informasi Universitas Tarumanagara.*
+*Dibuat untuk keperluan Praktikum Mata Kuliah **Oracle Database Administrator** di Fakultas Teknologi Informasi, Universitas Tarumanagara.*
