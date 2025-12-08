@@ -146,6 +146,9 @@ Ensure the VM is connected:
 3. Change the **Host Key Combo** to another key (e.g., Right Shift)
 4. Click **OK**
 
+## Additional Resources
+For advanced visualization, you can find PDF files in the [`docs`](./docs) folder.
+
 ---
 <br>
 

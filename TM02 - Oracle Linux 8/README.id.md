@@ -117,7 +117,10 @@ Jika laptop Anda tidak memiliki tombol "Right Ctrl" (Ctrl Kanan) untuk melepaska
 4.  Klik pada kolom *Shortcut*, lalu tekan tombol pengganti yang diinginkan di keyboard Anda (contoh: tombol `Shift` Kanan atau `Alt` Kanan).
 5.  Klik **OK**.
 
-<br>
+## Sumber Daya Tambahan
+Untuk visualisasi lanjutan, Anda dapat menemukan file PDF di folder [`docs`](./docs).
 
 ---
+<br>
+
 *Dibuat untuk keperluan Praktikum Mata Kuliah **Oracle Database Administrator** di Fakultas Teknologi Informasi, Universitas Tarumanagara.*

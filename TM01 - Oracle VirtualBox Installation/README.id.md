@@ -53,6 +53,9 @@ Jika Anda mengalami kendala saat instalasi:
 | **Error: Visual C++ Missing** | Muncul pesan *"Needs Microsoft Visual C++ 2019..."*.<br> **Solusi:** Lihat bagian [Prasyarat Sistem](#prasyarat-sistem) di atas. Unduh Visual C++, install, lalu **wajib Restart laptop**. |
 | **Instalasi Gagal / Rollback** | Cek koneksi internet saat mengunduh atau pastikan antivirus tidak memblokir installer. |
 
+## Sumber Daya Tambahan
+Untuk visualisasi lanjutan, Anda dapat menemukan file PDF di folder [`docs`](./docs).
+
 ---
 <br>
 

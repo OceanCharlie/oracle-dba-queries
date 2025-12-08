@@ -53,6 +53,9 @@ If you encounter issues during installation:
 | **Error: Visual C++ Missing** | The message *"Needs Microsoft Visual C++ 2019..."* appears.<br> **Solution:** See the [System Prerequisites](#system-prerequisites) section above. Download Visual C++, install, then **you must Restart the laptop**. |
 | **Installation Failed / Rollback** | Check your internet connection during the download or ensure your antivirus is not blocking the installer. |
 
+## Additional Resources
+For advanced visualization, you can find PDF files in the [`docs`](./docs) folder.
+
 ---
 <br>
 
