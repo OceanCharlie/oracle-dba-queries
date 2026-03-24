@@ -13,3 +13,12 @@ These updates were compiled based on hands-on technical experience gained while 
 ## Purpose
 
 This repository is intended as an advanced supplement for students and instructors. While the primary syllabus adheres to university standards, these resources are designed to bridge the gap between academic theory and modern technical implementation.
+
+## Disclaimer & Legal Notice
+
+This repository contains an independently enhanced derivative work. The foundational syllabus, core database concepts, and original lab structures remain the intellectual property of Tarumanagara University.
+
+The enhancements, optimizations, and supplementary materials provided in this repository were created solely for educational purposes to support students and instructors. 
+
+* **Non-Commercial Use Only:** The contents of this repository are strictly for academic and personal learning. They may not be used for commercial purposes, sold, or monetized in any way.
+* **No Warranty:** The scripts, queries, and materials are provided "as is" without warranty of any kind. Use them at your own risk. The author is not responsible for any data loss or system damage. Always test queries in a non-production or sandbox environment before execution.
